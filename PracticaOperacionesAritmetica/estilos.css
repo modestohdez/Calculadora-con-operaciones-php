@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: red;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.calculator h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.calculator form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.calculator label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.calculator input, .calculator select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.calculator button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: blue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: #0056b3;
+}
